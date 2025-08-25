@@ -1,0 +1,146 @@
+#menu a { 
+	font-family: "Courier New";
+	font-weight: bold; 
+	font-style: italic;
+    color: #000000;
+    text-decoration:underline Lavender 3px;
+	text-align: center;
+}
+
+#menu li {
+    display: inline; 
+    padding: 5px 20px 5px 20px;
+    
+}
+
+#main{
+    width: 75%;
+    padding: 10px;
+    border-style: solid;
+    border-color: #E6E6FA;
+    margin:auto;
+
+	h1{
+	font-family: "Courier New"; 
+	text-align: center;
+	text-decoration: overline wavy Lavender 5px;
+}
+
+h4{
+	font-family: "Courier New";
+	text-align: center;
+	text-decoration: none
+}
+}
+img{
+  float: right;
+  width: 120px;
+  margin: 0 0 15px 20px;
+  padding: 15px;
+  border: 1px Lavender;
+  text-align: center;
+}
+body {
+	background-color: LavenderBlush;
+}
+
+#text{
+    padding: 40px;
+	font-family: "Garamond";
+	font-style: bold;
+	text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  border-color: Lavender;
+}
+
+div.gallery img {
+  width: 80%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Courier New";
+  font-size: small;
+  color: #000000
+}
+
+#footer{
+    margin: auto;
+    text-align: center;
+	font-family: "Courier New";
+    font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu a {
+		margin: auto;
+        text-align: center;
+		font-family: "Arial", sans-serif;
+		color: #000000;
+		text-decoration: none
+    }
+    #menu li {
+        padding: 2px;
+        display:list-item;
+		text-align: center;
+		font-family: "Arial", sans-serif;
+    }
+	#main{
+    width: 100%;
+    padding: 10px;
+	border-style: none;
+    margin:auto;
+	
+	h1{
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	text-decoration: none
+}
+h4{
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	text-decoration: none
+}
+	}
+	
+	#text{
+	font-family: "Arial", sans-serif;
+}
+
+	
+#footer{
+    margin: auto;
+    text-align: center;
+	font-family: "Arial", sans-serif;
+    font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+}
+
+div.gallery img {
+  width: 75%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: small;
+  color: #000000
+}
